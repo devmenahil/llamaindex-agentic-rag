@@ -40,6 +40,8 @@ A `RouterQueryEngine` that dynamically chooses between two retrieval strategies 
    python main.py
    ```
 
+> **Note:** if you have a very new/unreleased Python version installed locally, some of these packages may not install cleanly in an editor like VS Code. If you hit install errors, it's easier to just run this in [Google Colab](https://colab.research.google.com/) instead, which uses a stable, well-supported Python version.
+
 ## Example output
 
 Running `main.py` prints the selected tool for each query (via `verbose=True`) followed by the response — one for a document-wide summary, one for a specific factual question.
