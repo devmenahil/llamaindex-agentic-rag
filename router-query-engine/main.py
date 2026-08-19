@@ -5,7 +5,7 @@ from utils import get_router_query_engine
 
 os.environ["GOOGLE_API_KEY"] = get_google_api_key()
 
-query_engine = get_router_query_engine("evaluation-report.pdf")
+query_engine = get_router_query_engine("your-file.pdf")
 
 response = query_engine.query(
     "What is the summary of the document?"
