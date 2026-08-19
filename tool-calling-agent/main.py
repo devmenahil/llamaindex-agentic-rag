@@ -5,7 +5,7 @@ from utils import add_tool, mystery_tool, build_tools
 os.environ["GOOGLE_API_KEY"] = get_google_api_key()
 
 # --- Part 1: simple function tools ---
-llm, vector_query_tool, summary_tool = build_tools("evaluation-report.pdf")
+llm, vector_query_tool, summary_tool = build_tools("your-file.pdf")
 
 response = llm.predict_and_call(
     [add_tool, mystery_tool],
