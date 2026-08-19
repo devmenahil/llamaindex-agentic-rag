@@ -42,11 +42,11 @@ def get_router_query_engine(file_path: str, llm=None, embed_model=None):
 
     summary_tool = QueryEngineTool.from_defaults(
         query_engine=summary_query_engine,
-        description="Useful for summarization questions related to MetaGPT",
+        description="Useful for summarization questions related to the document",
     )
     vector_tool = QueryEngineTool.from_defaults(
         query_engine=vector_query_engine,
-        description="Useful for retrieving specific context from the MetaGPT paper.",
+        description="Useful for retrieving specific context from the paper.",
     )
 
     query_engine = RouterQueryEngine(
