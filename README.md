@@ -20,5 +20,5 @@ Each folder has its own README with setup steps, file breakdowns, and example qu
 
 ## Notes
 
-- Adapted from a LlamaIndex agentic RAG course originally built around OpenAI models, modified here to run entirely on the Gemini API.
+- Adapted from a the DeepLearning.AI Building Agentic RAG with LlamaindexL course originally built around OpenAI models, modified here to run entirely on the Gemini API.
 - `.env` files are git-ignored — never commit real API keys. Each project's README explains what to put in your own `.env` file.
